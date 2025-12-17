@@ -1,4 +1,4 @@
-# DCASE_2025_Submission_Main
+# ASD-PatchBasedConstrastiveLearning
 
 A unified, end-to-end pipeline for self-supervised contrastive learning on RGB spectrogram patches across all machine types.
 
