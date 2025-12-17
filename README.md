@@ -1,10 +1,13 @@
-# Patch-based Contrastive Learning with Attribute Conditioned Attention Pooling and Inference via Latent Space Clustering for Anomalous Sound Detection
+# Patch-based Contrastive Learning with Attribute Conditioned Attention Pooling for Anomalous Sound Detection
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-ee4c2c.svg)](https://pytorch.org/)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![Paper](https://img.shields.io/badge/paper-under%20review-orange.svg)]()
 
-A patch-based contrastive learning framework for anomaly detection in industrial audio, leveraging RGB spectrogram representations and attribute-conditioned attention pooling.
+A patch-based contrastive learning framework for anomaly detection in industrial audio, leveraging RGB spectrogram representations, attribute-conditioned attention pooling, and latent space clustering for robust anomaly inference.
+
+> **Note**: This repository contains the implementation of our work currently under review. Code and documentation will be updated upon publication.
 
 ---
 
@@ -28,7 +31,7 @@ A patch-based contrastive learning framework for anomaly detection in industrial
 
 ## 🎯 Overview
 
-ASTRA implements a novel approach to industrial anomaly detection by:
+This repository implements a novel approach to industrial anomaly detection by:
 - Converting audio signals to RGB spectrograms using mel-scale transformations
 - Employing patch-based contrastive learning (SimCLR-style) with ResNet34 backbone
 - Utilizing attribute-conditioned attention pooling for robust feature aggregation
@@ -371,16 +374,19 @@ Recommended ranges for tuning:
 
 ## 📝 Citation
 
-If you use this code in your research, please cite:
+**Note**: This work is currently under review and has not been published yet. If you use this code in your research, please reference this repository:
 
 ```bibtex
-@inproceedings{astra2024,
-  title={ASTRA: Attention-based Self-supervised Transformative Representation for Anomaly Detection},
-  author={Your Name},
-  booktitle={Proceedings of...},
-  year={2024}
+@misc{astra2024,
+  title={Patch-based Contrastive Learning with Attribute Conditioned Attention Pooling and Inference via Latent Space Clustering for Anomalous Sound Detection},
+  author={[Author Names]},
+  year={2025},
+  note={Under Review},
+  howpublished={\url{https://github.com/yourusername/astra-anomaly-detection}}
 }
 ```
+
+**Update**: Once published, proper citation information will be provided here.
 
 ---
 
@@ -402,15 +408,12 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ---
 
-## 📧 Contact
-
-For questions or issues, please open an issue on GitHub or contact [your.email@example.com](mailto:your.email@example.com).
-
----
-
 ## 🙏 Acknowledgments
 
 - ResNet34 pretrained weights from [torchvision](https://pytorch.org/vision/stable/models.html)
 - SimCLR framework inspiration
 - Industrial audio datasets from [DCASE Challenge](http://dcase.community/)
 
+---
+
+**Last Updated**: December 2024
