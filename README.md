@@ -414,6 +414,3 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 - SimCLR framework inspiration
 - Industrial audio datasets from [DCASE Challenge](http://dcase.community/)
 
----
-
-**Last Updated**: December 2024
