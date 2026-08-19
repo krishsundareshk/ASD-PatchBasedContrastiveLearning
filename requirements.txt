@@ -1,0 +1,23 @@
+# Core Deep Learning & Computer Vision
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Audio Processing & Feature Extraction
+librosa>=0.10.0
+soundfile>=0.12.1
+
+# Scientific Computing & Machine Learning
+numpy>=1.22.0
+scipy>=1.10.0
+scikit-learn>=1.2.0
+pandas>=2.0.0
+
+# Imaging & Visualization
+Pillow>=9.5.0
+matplotlib>=3.7.0
+
+# Progress Tracking & CLI Utilities
+tqdm>=4.65.0
+
+# Testing & Code Quality
+pytest>=7.3.0
